@@ -102,9 +102,8 @@
      ```
 
 ## Naming
-
-  - Use dash "-" for object keys (i.e. "selectors").
-  > Why? It's easier to read.
+- Use dash "-" for object keys (i.e. "selectors").
+      > Why? It's easier to read.
 
     ```js
 
