@@ -22,7 +22,7 @@
       - 4.Visual
       - 5.Misc
 
-  > Why? If you know the order, you svae time finding them.
+  > Why? If you know the order, you save time finding them.
 
     ```css
     .declaration-order {
