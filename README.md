@@ -1,6 +1,6 @@
 # CSS Style Guide
 
-1.[SCSS Style Guide](./scss-style-guide)
+[SCSS Style Guide](#./scss-style-guide)
 
 ## Table of Contents
 
