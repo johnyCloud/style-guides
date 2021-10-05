@@ -80,6 +80,7 @@
 
 ## Media_query_placement
   - Place media queries as close to their relevant rule sets whenever possible. 
+  
     Don't bundle them    all in a separate stylesheet or at the end of the document. 
     Doing so only makes it easier for    folks to miss them in the future.
     Here's a typical setup.
@@ -143,10 +144,13 @@
 ## Class_names
   - Keep classes lowercase and use dashes (not underscores or camelCase).
         Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
+        
         Avoid excessive and arbitrary shorthand notation.
         .btn is useful for button, but .s doesn't mean anything.
         Keep classes as short and succinct as possible.
+        
         Use meaningful names; use structural or purposeful names over presentational.
+        
         Prefix classes based on the closest parent or base class.
         Use .js-* classes to denote behavior (as opposed to style), but keep these classes out of your CSS.
         It's also useful to apply many of these same rules when creating Sass and Less variable names.
@@ -167,6 +171,7 @@
 
   - Code is written and maintained by people. Ensure your code is descriptive, 
     well commented, and   approachable by others. 
+    
     Great code comments convey context or purpose. 
     Do    not simply reiterate a component or class name.
 
@@ -187,8 +192,10 @@
     ```
 ## Selectors
   - Use classes over generic element tag for optimum rendering performance.
+  - 
     Avoid using several attribute selectors (e.g., [class^="..."])
     on commonly occuring components. Browser performance is known to be impacted by these.
+    
     Keep selectors short and strive to limit the number of elements in each selector to three.
     Scope classes to the closest parent only when necessary (e.g., when not using prefixed classes).
 
