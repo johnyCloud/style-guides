@@ -192,7 +192,7 @@
     ```
 ## Selectors
   - Use classes over generic element tag for optimum rendering performance.
-  - 
+  
     Avoid using several attribute selectors (e.g., [class^="..."])
     on commonly occuring components. Browser performance is known to be impacted by these.
     
