@@ -12,7 +12,7 @@
 ## Declaration 
 
   - Related property declarations should be grouped together following the order:
-        1.Positioning
+      - 1.Positioning
         2.Box model
         3.Typographic
         4.Visual
