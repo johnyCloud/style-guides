@@ -10,7 +10,7 @@ This guide borrows concepts from [Code Guide by @mdo](http://codeguide.co/), [Id
 * [Specificity & Naming](#specificity--naming)
 * [Units](#units)
 * [Ordering](#ordering)
-* [Linting](#linting)
+
 
 ## Code Formatting
 
@@ -155,13 +155,13 @@ Rules should be named semantically so that someone looking at just the markup sh
 .media {
   ...
 
-  &__object {
+  &-object {
     ...
 
-    &--reversed { ... }
+    &-reversed { ... }
   }
 
-  &__body {
+  &-body {
     ...
   }
 }
@@ -286,36 +286,10 @@ $color-white: #fff;
 
   &:hover { ... }
 
-  &--my-modifier { ... }
+  &-my-modifier { ... }
 
-  &__my-element { ... }
+  &-my-element { ... }
 }
 ```
 
-## Linting
 
-It is best to leverage a linter like [stylelint](https://github.com/stylelint/stylelint) to make it easy to adhere to the following guidelines. You can install this repository through your package manager and point to it in your own stylelint config file. Alternatively, you can copy the stylelint config file ([`.stylelintrc`](https://github.com/alexchantastic/scss-style-guide/blob/master/.stylelintrc)) included in this repository into your project.
-
-### Installation
-
-#### Yarn
-
-```
-yarn add stylelint scss-style-guide --dev
-```
-
-#### npm
-
-```
-npm install stylelint scss-style-guide --save-dev
-```
-
-#### `.stylelintrc`
-
-```
-{
-  "extends": [
-    "scss-style-guide"
-  ]
-}
-```
