@@ -1,32 +1,33 @@
-# HTML/CSS/SCSS Style Guide
+# HTML CSS SCSS Style Guide
 
-
+[SCSS Style Guide](https://github.com/johnyCloud/style-guides/blob/main/scss-style-guide.md)
 
 ---
 
 ## Table of Contents
 
+
+
 [HTML](#html)
-1. [Syntax](#Syntax)
+1. [Syntax](#syntax)
 1. [Includes](#css-and-javascript-includes)
-1. [Naming](#Use-Lowercase-Element-Names)
-1. [Closing Tags](#Close-All-HTML-Elements)
-1. [Naming attributes](#Use-Lowercase-Attribute-Names)
+1. [Naming](#use-lowercase-element-names)
+1. [Closing Tags](#close-all-html-elements)
+1. [Naming attributes](#use-lowercase-attribute-names)
 1. [Attribute order](#Attribute-order)
-1. [Avoid Long Code Lines](#Avoid-Long-Code-Lines)
-1. [HTML Comments](#HTML-Comments)
-1. [Reducing markup](#Reducing-markup)
+1. [Avoid Long Code Lines](#avoid-long-code-lines)
+1. [HTML Comments](#html-Comments)
+1. [Reducing markup](#reducing-markup)
 
 
 [CSS](#css)
 1. [Declaration Order](#declaration)
 1. [Single declarations](#Single-declarations)
-1. [Media query placement](#Media-query-placement)
-1. [Naming](#naming)
-1. [Shorthand notation](#Shorthand-notation)
-1. [Class names](#Class-names)
+1. [Media query placement](#media-query-placement)
+1. [Shorthand notation](#shorthand-notation)
+1. [Class names](#class-names)
 1. [Comments](#comments)
-1. [Selectors](#Selectors)
+1. [Selectors](#selectors)
 
 [SCSS](#scss)
 1. [Code Formatting](#code-formatting)
@@ -34,8 +35,7 @@
 1. [Units](#units)
 1. [Ordering](#ordering)
 
-
-
+---
 # HTML
 ## Syntax
 - Don't capitalize tags, including the doctype.
@@ -56,8 +56,8 @@
     </body>
     </html>
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## CSS and JavaScript includes
 Per HTML5 spec, typically there is no need to specify a type when including CSS and JavaScript files as text/css and text/javascript are their respective defaults.
 
@@ -77,8 +77,8 @@ HTML5 spec links
     <!-- JavaScript -->
     <script src="code-guide.js"></script>
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Use Lowercase Element Names
 
 HTML allows mixing uppercase and lowercase letters in element names.
@@ -101,7 +101,8 @@ However, we recommend using lowercase element names, because:
     <P>This is a paragraph.</P>
 </BODY>
 ```
-
+- [Back To Top](#table-of-contents)
+---
 ## Close All HTML Elements
 In HTML, you do not have to close all elements (for example the <p> element).
 However, we strongly recommend closing all HTML elements, like this:
@@ -120,7 +121,8 @@ However, we strongly recommend closing all HTML elements, like this:
   <p>This is a paragraph.
 </section>
 ```
-
+- [Back To Top](#table-of-contents)
+---
 ## Use Lowercase Attribute Names
 HTML allows mixing uppercase and lowercase letters in attribute names.
 
@@ -137,8 +139,8 @@ However, we recommend using lowercase attribute names, because:
 <!-- Bad -->
 <a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Attribute order
 HTML attributes should come in this particular order for easier reading of code.
 
@@ -160,14 +162,14 @@ HTML attributes should come in this particular order for easier reading of code.
 
     <img src="..." alt="...">
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Avoid Long Code Lines
-- When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.
-- Try to avoid too long code lines.
+When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.
 
-
-
+Try to avoid too long code lines.
+- [Back To Top](#table-of-contents)
+---
 ## HTML Comments
 
 Short comments should be written on one line, like this:
@@ -181,8 +183,8 @@ Comments that spans more than one line, should be written like this:
   This is a long comment example. This is a long comment example.
 -->
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Reducing markup
 
 - Whenever possible, avoid superfluous parent elements when writing HTML. 
@@ -198,12 +200,9 @@ Take the following example:
     <!-- Better -->
     <img class="avatar" src="...">
 ```
+- [Back To Top](#table-of-contents)
 ---
-
-
 # CSS
-
-
 ## Declaration 
 
 Related property declarations should be grouped together following the order:
@@ -247,7 +246,7 @@ Related property declarations should be grouped together following the order:
         opacity: 1;
     }
 ```
-
+- [Back To Top](#table-of-contents)
 
 ## Single declarations
 
@@ -276,8 +275,8 @@ declarations should be split to separate lines.
     .icon-home      { background-position: 0 -20px; }
     .icon-account   { background-position: 0 -40px; }
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Media query placement
 Place media queries as close to their relevant rule sets whenever possible. 
 Don't bundle them    all in a separate stylesheet or at the end of the document. 
@@ -296,8 +295,8 @@ Here's a typical setup.
     .element-selected { ... }
     }
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Shorthand notation
 
 Limit shorthand declaration usage to instances where you must 
@@ -321,9 +320,8 @@ explicitly set all available values. Frequently overused shorthand properties in
         border-top-right-radius: 3px;
     }
 ```
-
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Class names
 Keep classes lowercase and use dashes (not underscores or camelCase).
 Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
@@ -350,8 +348,8 @@ It's also useful to apply many of these same rules when creating Sass and Less v
     .important { ... }
     .tweet-header { ... }
 ```
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Comments
 
 Code is written and maintained by people. Ensure your code is descriptive, 
@@ -377,7 +375,8 @@ Be sure to write in complete sentences for larger comments and succinct phrases 
     ...
     }
 ```
-
+- [Back To Top](#table-of-contents)
+---
     
 ## Selectors
 Use classes over generic element tag for optimum rendering performance.
@@ -399,12 +398,9 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
     .tweet-header .username { ... }
     .tweet .avatar { ... }
 ```
+- [Back To Top](#table-of-contents)
 ---
-
-
 # SCSS
-
-
 ## Code Formatting
 
 ### Declaractions
@@ -476,10 +472,8 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
 .biz { font-size: 16px; }
 .baz { font-size: 24px; }
 ```
-
-
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Units
 
 * Use `px` for things that should scale in a fixed manner
@@ -488,6 +482,8 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
 * Use `%` for things that should scale with the parent element
 * Use `vw` and `vh` for things that should scale with the viewport
 * `line-height` should be a unitless multiplier of `font-size`
+
+- [Back To Top](#table-of-contents)
 ---
 ## Specificity & Naming
 
@@ -627,8 +623,8 @@ $color-black: #000;
 $color-white: #fff;
 ```
 
-
-
+- [Back To Top](#table-of-contents)
+---
 ## Ordering
 
 * Order side values by `top`, `right`, `bottom`, `left`
@@ -689,4 +685,5 @@ $color-white: #fff;
   &-my-element { ... }
 }
 ```
+- [Back To Top](#table-of-contents)
 ---
