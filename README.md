@@ -50,7 +50,7 @@
     }
     ```
 ## Single_declarations
-    - In instances where a rule set includes only one declaration, consider removing
+  - In instances where a rule set includes only one declaration, consider removing
       line breaks for readability and faster editing. Any rule set with multiple
       declarations should be split to separate lines.
 
