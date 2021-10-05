@@ -139,7 +139,7 @@
     }
     ```
 ## Class names
-        Keep classes lowercase and use dashes (not underscores or camelCase).
+  - Keep classes lowercase and use dashes (not underscores or camelCase).
         Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
         Avoid excessive and arbitrary shorthand notation.
         .btn is useful for button, but .s doesn't mean anything.
@@ -163,7 +163,7 @@
 
 ## Comments
 
-    Code is written and maintained by people. Ensure your code is descriptive, 
+  - Code is written and maintained by people. Ensure your code is descriptive, 
     well commented, and   approachable by others. 
     Great code comments convey context or purpose. 
     Do    not simply reiterate a component or class name.
@@ -184,7 +184,7 @@
         }
     ```
 ## Selectors
-    Use classes over generic element tag for optimum rendering performance.
+  - Use classes over generic element tag for optimum rendering performance.
     Avoid using several attribute selectors (e.g., [class^="..."])
     on commonly occuring components. Browser performance is known to be impacted by these.
     Keep selectors short and strive to limit the number of elements in each selector to three.
