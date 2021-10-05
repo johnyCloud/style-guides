@@ -54,7 +54,7 @@
     </body>
     </html>
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## CSS and JavaScript includes
 Per HTML5 spec, typically there is no need to specify a type when including CSS and JavaScript files as text/css and text/javascript are their respective defaults.
