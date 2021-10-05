@@ -138,7 +138,7 @@
         border-top-right-radius: 3px;
     }
     ```
-## Class names
+## Class_names
   - Keep classes lowercase and use dashes (not underscores or camelCase).
         Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
         Avoid excessive and arbitrary shorthand notation.
