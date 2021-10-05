@@ -34,7 +34,8 @@
 1. [Units](#units)
 1. [Ordering](#ordering)
 
----
+
+
 # HTML
 ## Syntax
 - Don't capitalize tags, including the doctype.
@@ -55,7 +56,8 @@
     </body>
     </html>
 ```
----
+
+
 ## CSS and JavaScript includes
 Per HTML5 spec, typically there is no need to specify a type when including CSS and JavaScript files as text/css and text/javascript are their respective defaults.
 
@@ -75,7 +77,8 @@ HTML5 spec links
     <!-- JavaScript -->
     <script src="code-guide.js"></script>
 ```
----
+
+
 ## Use Lowercase Element Names
 
 HTML allows mixing uppercase and lowercase letters in element names.
@@ -134,7 +137,8 @@ However, we recommend using lowercase attribute names, because:
 <!-- Bad -->
 <a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
----
+
+
 ## Attribute order
 HTML attributes should come in this particular order for easier reading of code.
 
@@ -156,11 +160,14 @@ HTML attributes should come in this particular order for easier reading of code.
 
     <img src="..." alt="...">
 ```
----
+
+
 ## Avoid Long Code Lines
 - When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.
 - Try to avoid too long code lines.
----
+
+
+
 ## HTML Comments
 
 Short comments should be written on one line, like this:
@@ -174,7 +181,8 @@ Comments that spans more than one line, should be written like this:
   This is a long comment example. This is a long comment example.
 -->
 ```
----
+
+
 ## Reducing markup
 
 - Whenever possible, avoid superfluous parent elements when writing HTML. 
@@ -191,7 +199,11 @@ Take the following example:
     <img class="avatar" src="...">
 ```
 ---
+
+
 # CSS
+
+
 ## Declaration 
 
 Related property declarations should be grouped together following the order:
@@ -265,6 +277,7 @@ declarations should be split to separate lines.
     .icon-account   { background-position: 0 -40px; }
 ```
 
+
 ## Media query placement
 Place media queries as close to their relevant rule sets whenever possible. 
 Don't bundle them    all in a separate stylesheet or at the end of the document. 
@@ -283,6 +296,7 @@ Here's a typical setup.
     .element-selected { ... }
     }
 ```
+
 
 ## Shorthand notation
 
@@ -307,6 +321,9 @@ explicitly set all available values. Frequently overused shorthand properties in
         border-top-right-radius: 3px;
     }
 ```
+
+
+
 ## Class names
 Keep classes lowercase and use dashes (not underscores or camelCase).
 Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
@@ -334,6 +351,7 @@ It's also useful to apply many of these same rules when creating Sass and Less v
     .tweet-header { ... }
 ```
 
+
 ## Comments
 
 Code is written and maintained by people. Ensure your code is descriptive, 
@@ -359,6 +377,7 @@ Be sure to write in complete sentences for larger comments and succinct phrases 
     ...
     }
 ```
+
     
 ## Selectors
 Use classes over generic element tag for optimum rendering performance.
@@ -381,7 +400,11 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
     .tweet .avatar { ... }
 ```
 ---
+
+
 # SCSS
+
+
 ## Code Formatting
 
 ### Declaractions
@@ -453,7 +476,10 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
 .biz { font-size: 16px; }
 .baz { font-size: 24px; }
 ```
----
+
+
+
+
 ## Units
 
 * Use `px` for things that should scale in a fixed manner
@@ -600,7 +626,9 @@ $beta: #fff;
 $color-black: #000;
 $color-white: #fff;
 ```
----
+
+
+
 ## Ordering
 
 * Order side values by `top`, `right`, `bottom`, `left`
