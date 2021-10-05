@@ -75,7 +75,7 @@ HTML5 spec links
     <!-- JavaScript -->
     <script src="code-guide.js"></script>
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Use Lowercase Element Names
 
@@ -99,7 +99,7 @@ However, we recommend using lowercase element names, because:
     <P>This is a paragraph.</P>
 </BODY>
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Close All HTML Elements
 In HTML, you do not have to close all elements (for example the <p> element).
@@ -119,7 +119,7 @@ However, we strongly recommend closing all HTML elements, like this:
   <p>This is a paragraph.
 </section>
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Use Lowercase Attribute Names
 HTML allows mixing uppercase and lowercase letters in attribute names.
@@ -137,7 +137,7 @@ However, we recommend using lowercase attribute names, because:
 <!-- Bad -->
 <a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Attribute order
 HTML attributes should come in this particular order for easier reading of code.
@@ -160,13 +160,14 @@ HTML attributes should come in this particular order for easier reading of code.
 
     <img src="..." alt="...">
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Avoid Long Code Lines
 When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.
 
 Try to avoid too long code lines.
-- [Back To Top](#table-of-contents)
+
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## HTML Comments
 
@@ -198,7 +199,7 @@ Take the following example:
     <!-- Better -->
     <img class="avatar" src="...">
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 # CSS
 ## Syntax
@@ -236,6 +237,7 @@ Take the following example:
     box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
   }
 ```
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Declaration 
 
@@ -280,7 +282,7 @@ Related property declarations should be grouped together following the order:
         opacity: 1;
     }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 
 ## Single declarations
 
@@ -309,7 +311,7 @@ declarations should be split to separate lines.
     .icon-home      { background-position: 0 -20px; }
     .icon-account   { background-position: 0 -40px; }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Media query placement
 Place media queries as close to their relevant rule sets whenever possible. 
@@ -329,7 +331,7 @@ Here's a typical setup.
     .element-selected { ... }
     }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Shorthand notation
 
@@ -354,7 +356,7 @@ explicitly set all available values. Frequently overused shorthand properties in
         border-top-right-radius: 3px;
     }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Class names
 Keep classes lowercase and use dashes (not underscores or camelCase).
@@ -382,7 +384,7 @@ It's also useful to apply many of these same rules when creating Sass and Less v
     .important { ... }
     .tweet-header { ... }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Comments
 
@@ -432,7 +434,7 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
     .tweet-header .username { ... }
     .tweet .avatar { ... }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 # SCSS
 ## Code Formatting
@@ -506,7 +508,7 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
 .biz { font-size: 16px; }
 .baz { font-size: 24px; }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Units
 
@@ -517,7 +519,7 @@ Scope classes to the closest parent only when necessary (e.g., when not using pr
 * Use `vw` and `vh` for things that should scale with the viewport
 * `line-height` should be a unitless multiplier of `font-size`
 
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Specificity & Naming
 
@@ -657,7 +659,7 @@ $color-black: #000;
 $color-white: #fff;
 ```
 
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
 ## Ordering
 
@@ -719,5 +721,5 @@ $color-white: #fff;
   &-my-element { ... }
 }
 ```
-- [Back To Top](#table-of-contents)
+&#9650; [Back to Top](#table-of-contents)
 ---
