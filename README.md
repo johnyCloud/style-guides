@@ -1,5 +1,7 @@
 # CSS Style Guide
 
+1.[SCSS Style Guide](./scss-style-guide)
+
 ## Table of Contents
 
 1. [Declaration Order](#declaration)
