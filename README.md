@@ -158,9 +158,8 @@ HTML attributes should come in this particular order for easier reading of code.
 ```
 ---
 ## Avoid Long Code Lines
-When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.
-
-Try to avoid too long code lines.
+- When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.
+- Try to avoid too long code lines.
 ---
 ## HTML Comments
 
