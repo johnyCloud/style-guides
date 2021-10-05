@@ -1,6 +1,7 @@
 # HTML Style Guide
 
 [CSS Style Guide](https://github.com/johnyCloud/style-guides/blob/main/css-style-guide.md)
+
 [SCSS Style Guide](https://github.com/johnyCloud/style-guides/blob/main/scss-style-guide.md)
 
 ## Table of Contents
