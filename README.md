@@ -1,4 +1,4 @@
-# HTML CSS SCSS Style Guide
+# HTML/CSS/SCSS Style Guide
 
 
 
