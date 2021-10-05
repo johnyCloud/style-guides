@@ -1,9 +1,5 @@
 # HTML CSS SCSS Style Guide
 
-[SCSS Style Guide](https://github.com/johnyCloud/style-guides/blob/main/scss-style-guide.md)
-
----
-
 ## Table of Contents
 
 
