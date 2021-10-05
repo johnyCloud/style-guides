@@ -16,7 +16,7 @@
 1. [Avoid Long Code Lines](#Avoid-Long-Code-Lines)
 1. [HTML Comments](#HTML-Comments)
 1. [Reducing markup](#Reducing-markup)
---
+
 
 [CSS](#css)
 1. [Declaration Order](#declaration)
