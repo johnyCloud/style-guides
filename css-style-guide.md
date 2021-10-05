@@ -5,11 +5,11 @@
 ## Table of Contents
 
 1. [Declaration Order](#declaration)
-1. [Single declarations](#Single_declarations)
-1. [Media query placement](#Media_query_placement)
+1. [Single declarations](#Single-declarations)
+1. [Media query placement](#Media-query-placement)
 1. [Naming](#naming)
-1. [Shorthand notation](#Shorthand_notation)
-1. [Class names](#Class_names)
+1. [Shorthand notation](#Shorthand-notation)
+1. [Class names](#Class-names)
 1. [Comments](#comments)
 1. [Selectors](#Selectors)
 
@@ -57,7 +57,7 @@ Related property declarations should be grouped together following the order:
 ```
 
 
-## Single_declarations
+## Single declarations
 
 In instances where a rule set includes only one declaration, consider removing
 line breaks for readability and faster editing. Any rule set with multiple
@@ -85,7 +85,7 @@ declarations should be split to separate lines.
     .icon-account   { background-position: 0 -40px; }
 ```
 
-## Media_query_placement
+## Media query placement
 Place media queries as close to their relevant rule sets whenever possible. 
 Don't bundle them    all in a separate stylesheet or at the end of the document. 
     
@@ -104,7 +104,7 @@ Here's a typical setup.
     }
 ```
 
-## Shorthand_notation
+## Shorthand notation
 
 Limit shorthand declaration usage to instances where you must 
 explicitly set all available values. Frequently overused shorthand properties include:
@@ -127,7 +127,7 @@ explicitly set all available values. Frequently overused shorthand properties in
         border-top-right-radius: 3px;
     }
 ```
-## Class_names
+## Class names
 Keep classes lowercase and use dashes (not underscores or camelCase).
 Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
 
