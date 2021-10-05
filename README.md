@@ -85,17 +85,17 @@
     Doing so only makes it easier for    folks to miss them in the future.
     Here's a typical setup.
 
-   ```js
-    .element { ... }
-    .element-avatar { ... }
-    .element-selected { ... }
+     ```js
+      .element { ... }
+      .element-avatar { ... }
+      .element-selected { ... }
 
-    @media (min-width: 480px) {
-    .element { ...}
-    .element-avatar { ... }
-    .element-selected { ... }
-    }
-   ```
+      @media (min-width: 480px) {
+      .element { ...}
+      .element-avatar { ... }
+      .element-selected { ... }
+      }
+     ```
 
 ## Naming
 
