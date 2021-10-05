@@ -22,6 +22,8 @@
       - 4.Visual
       - 5.Misc
 
+  > Why? If you know the order, you svae time finding them.
+
     ```css
     .declaration-order {
         /* Positioning */
@@ -58,7 +60,7 @@
       line breaks for readability and faster editing. Any rule set with multiple
       declarations should be split to separate lines.
 
-      The key factor here is error detection—e.g., a CSS validator stating you have
+  > Why? The key factor here is error detection—e.g., a CSS validator stating you have
       a syntax error on Line 183. With a single declaration, there's no missing it.
       With multiple declarations, separate lines is a must for your sanity.
 
@@ -82,9 +84,9 @@
 
 ## Media_query_placement
   - Place media queries as close to their relevant rule sets whenever possible. 
-  
     Don't bundle them    all in a separate stylesheet or at the end of the document. 
-    Doing so only makes it easier for    folks to miss them in the future.
+    
+  > Why? Doing so only makes it easier for    folks to miss them in the future.
     Here's a typical setup.
 
      ```js
@@ -101,7 +103,8 @@
 
 ## Naming
 
-  - Use minus "-" for object keys (i.e. "selectors").
+  - Use dash "-" for object keys (i.e. "selectors").
+  > Why? It's easier to read.
 
     ```js
 
@@ -156,6 +159,8 @@
         Prefix classes based on the closest parent or base class.
         Use .js-* classes to denote behavior (as opposed to style), but keep these classes out of your CSS.
         It's also useful to apply many of these same rules when creating Sass and Less variable names.
+        
+      > Why? To avoid guessing game.
 
     ```css
         /* Bad example */
@@ -178,6 +183,8 @@
     Do    not simply reiterate a component or class name.
 
     Be sure to write in complete sentences for larger comments and succinct phrases for general notes.
+    
+  > Why? you don't work alone.
 
     ```css
         /* Bad example */
@@ -192,6 +199,7 @@
         ...
         }
     ```
+    
 ## Selectors
   - Use classes over generic element tag for optimum rendering performance.
   
